@@ -55,7 +55,7 @@ for $mydir0 (@mydirs_replace) {
 }
 chdir($current_dir);
 if ($i_error) { 
-  die "Error(s) : some files wo comments are differents before and after header replacement, no submit"; 
+  die "Error(s) : some files w/o comments are different before and after header replacement, no submit"; 
 }
 
 sub init () {
@@ -963,7 +963,7 @@ sub Wanted_replace
       if (system("diff $file_name__wo_c $file_name____wo_c")) {
         $i_error=1;
         print "Error while processing file $file_name\n";
-        print "\t > Files without comments are differents.";
+        print "\t > Files without comments are different.";
       }
       else {
         print "$File::Find::name ....\n";

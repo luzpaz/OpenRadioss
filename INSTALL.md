@@ -76,7 +76,7 @@ Example : If OpenRadioss is placed in C:\OpenRadioss
 
 
 
-## Runing OpenRadioss
+## Running OpenRadioss
 
 
 ### Running OpenRadioss without MPI (OpenMP only)

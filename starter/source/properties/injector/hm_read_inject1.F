@@ -382,7 +382,7 @@ C----------------------
      & 5X,'ABSCISSA SCALE FACTOR',/,
      & 5X,'     FOR TIME BASED FUNCTIONS . . . . .=',1PG20.13,/)
  1110 FORMAT(
-     & 5X,'MIXTURE DEFINTION'/,
+     & 5X,'MIXTURE DEFINITION'/,
      & 5X,'NUMBER OF GASES . . . . . . . . . . . .=',I10,/)
  1115 FORMAT(
      & 5X,'INITIAL CHARACTERISTICS OF MIXTURE',/,

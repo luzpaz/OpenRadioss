@@ -198,7 +198,7 @@ jobs:
 
       - name: Managing step execution
         if: ${{ always() }}
-        # Running cygwin from powershell or cmd => neither identation nor comment !
+        # Running cygwin from powershell or cmd => neither indentation nor comment !
         shell: cmd
         run: >
           call C:\cygwin64\bin\bash --login -c "
@@ -661,8 +661,8 @@ jobs:
 
       - name: Running builds
         working-directory: ${{ env.WORKDIR }}
-        # Running cygwin from powershell or cmd => neither identation nor comment !
-        # Not using wsl because of cmake issue with linux/win pathes conversion
+        # Running cygwin from powershell or cmd => neither indentation nor comment !
+        # Not using wsl because of cmake issue with linux/win paths conversion
         shell: cmd
         run: >
           call "C:\Program Files (x86)\Intel\oneAPI\setvars.bat" intel64 vs2019 && C:\cygwin64\bin\bash --login -c "
@@ -687,7 +687,7 @@ jobs:
 
       - name: Managing step execution
         if: ${{ always() }}
-        # Running cygwin from powershell or cmd => neither identation nor comment !
+        # Running cygwin from powershell or cmd => neither indentation nor comment !
         shell: cmd
         run: >
           call C:\cygwin64\bin\bash --login -c "
@@ -727,7 +727,7 @@ jobs:
 
       # If the closing went wrong we send an email
       - name: "Check result of closing branch and warn if it fails"
-        # Running cygwin from powershell or cmd => neither identation nor comment !
+        # Running cygwin from powershell or cmd => neither indentation nor comment !
         shell: cmd
         run: >
           call C:\cygwin64\bin\bash --login -c "
@@ -799,7 +799,7 @@ jobs:
           path: exec
 
       - name: Running qa
-        # Running cygwin from powershell or cmd => neither identation nor comment !
+        # Running cygwin from powershell or cmd => neither indentation nor comment !
         shell: cmd
         run: >
           call "C:\Program Files (x86)\Intel\oneAPI\setvars.bat" intel64 vs2019 && C:\cygwin64\bin\bash --login -c "
@@ -833,7 +833,7 @@ jobs:
 
       - name: Managing step execution
         if: ${{ always() }}
-        # Running cygwin from powershell or cmd => neither identation nor comment !
+        # Running cygwin from powershell or cmd => neither indentation nor comment !
         shell: cmd
         run: >
           call C:\cygwin64\bin\bash --login -c "
@@ -866,7 +866,7 @@ jobs:
 
       # If the closing went wrong we send an email
       - name: "Check result of closing branch and warn if it fails"
-        # Running cygwin from powershell or cmd => neither identation nor comment !
+        # Running cygwin from powershell or cmd => neither indentation nor comment !
         shell: cmd
         run: >
           call C:\cygwin64\bin\bash --login -c "
@@ -971,7 +971,7 @@ jobs:
 
       - name: Provide ALL binaries
         run: |
-          # Removed lfs hook (not supported in next action, not neeeded)
+          # Removed lfs hook (not supported in next action, not needed)
           rm -f .git/hooks/pre-push
 
           # Prepare tree architecture

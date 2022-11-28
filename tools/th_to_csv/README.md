@@ -32,7 +32,7 @@ Launch the converter after the simulation :
 
 ## Note
 To have full variable names in .csv file, add /TH/TITLE in 1.rad file when running engine : 
-/TH/TITLE write some _TITLES file that contains additional information allowing to have full titles in writen .csv file
+/TH/TITLE write some _TITLES file that contains additional information allowing to have full titles in written .csv file
 
 
 OpenRadioss time history files do not contain any forces curves , but only impulses

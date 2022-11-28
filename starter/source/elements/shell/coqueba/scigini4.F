@@ -149,7 +149,7 @@ C for IGTYP == 51, NPT now =NPTI
           PID1=IGEO(1,IPID1)
           CALL FRETITL2(TITR,IGEO(NPROPGI-LTITR+1,IPID1),LTITR)
           IF (NPT >0 .AND. NPTI==0) THEN
-C----limite number of error out
+C----limit number of error out
             IF (IPG<=1) CALL ANCMSG(MSGID=2020,
      .                ANMODE=ANINFO,
      .                MSGTYPE=MSGERROR,

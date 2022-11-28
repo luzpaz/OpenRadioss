@@ -36,7 +36,7 @@ jobs:
       BUILD_NB_THREAD: 2
 
     strategy:
-      # If one job fails othere are canceled
+      # If one job fails others are canceled
       fail-fast: true
       matrix:
         include:
@@ -142,7 +142,7 @@ jobs:
       mpi: ompi
 
     strategy:
-      # If one job fails othere are canceled
+      # If one job fails others are canceled
       fail-fast: false
       matrix:
         os: [linux64]

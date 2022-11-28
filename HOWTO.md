@@ -56,7 +56,7 @@ OpenMPI is needed to build OpenRadioss with OpenMPI support.
 It is recommended to build and install OpenMPI from OpenMPI website using gcc compiler.
 
 1. Download OpenMPI tarball from  [www.openmpi.org](https://www.open-mpi.org/software/ompi/v4.1)
-   prefered version is [OpenMPI v4.1.2](https://download.open-mpi.org/release/open-mpi/v4.1/openmpi-4.1.2.tar.gz)
+   preferred version is [OpenMPI v4.1.2](https://download.open-mpi.org/release/open-mpi/v4.1/openmpi-4.1.2.tar.gz)
 
             wget https://download.open-mpi.org/release/open-mpi/v4.1/openmpi-4.1.2.tar.gz
 
@@ -221,7 +221,7 @@ See [here](./CONTRIBUTING.md) if you want to contribute to OpenRadioss.
          -prec=[dp|sp]                        : set precision - dp (default) |sp 
          -static-link                         : Fortran, C & C++ runtime are linked in binary
          -debug=[0|1]                         : debug version 0 no debug flags (default), 1 usual debug flag )
-         -addflag="list of additionnal flags" : add compiler flags to usual set
+         -addflag="list of additional flags" : add compiler flags to usual set
  
          Execution control 
          -nt=[threads]      : number of threads for build 
@@ -279,7 +279,7 @@ Execution Control
                  not set   : SMP (default)
                  -mpi=ompi : OpenMPI
  
-                  Controling MPI Libraries - if need choose one of the 3 Option Set
+                  Controlling MPI Libraries - if necessary choose one of the 3 Option Set
                                              If no options set, recommended OpenMPI directories are uses (default)
                     1. -mpi-os                             : link with default MPI version installed on system
                                                     libraries are in default installation 
@@ -291,7 +291,7 @@ Execution Control
          -prec=[dp|sp]                        : set precision - dp (default) |sp 
          -static-link                         : Fortran, C & C++ runtime are linked in binary
          -debug=[0|1]                         : debug version 0 no debug flags (default), 1 usual debug flag )
-         -addflag="list of additionnal flags" : add compiler flags to usual set
+         -addflag="list of additional flags" : add compiler flags to usual set
  
          Build control 
          -nt=[threads]      : number of threads for build 
@@ -324,7 +324,7 @@ Other controls
             - `sp`: activates the Extended Single Precision Version (32bit)
 - `-static-link`: Runtime libraries are statically linked in Executable (easier when executable is used on different computers).
 - `-debug=1`: activates debug build (-O0 + usual debug flags).
-- `-addflag="list of additionnal flags"`: add compiler flags to usual set for all files 
+- `-addflag="list of additional flags"`: add compiler flags to usual set for all files 
 
 Execution Control
 
