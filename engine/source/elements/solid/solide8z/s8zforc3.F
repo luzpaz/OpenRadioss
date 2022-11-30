@@ -992,7 +992,7 @@ C      EXTRACT STRESSES + SMALL STRAIN
       ENDIF
 C-----------------------------
 C
-C    for heat transfert
+C    for heat transfer
 C
       IF(JTHE < 0 ) THEN
        CALL S8ZTEMPEL(LFT,LLT,NI,
@@ -1126,7 +1126,7 @@ c
         END IF
        ENDDO
 c-------------------------
-c    finite element heat transfert  
+c    finite element heat transfer
 c-------------------------
          IF(JTHE < 0) THEN
            CALL S8ETHERM(PM ,MXT ,VOLN,  NI,

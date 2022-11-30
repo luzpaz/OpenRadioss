@@ -1406,7 +1406,7 @@ C--------RBE2-----------
          CALL RBE2_IMPKD(M     ,NS    ,X     ,ISK    ,JT     ,
      2                  JR     ,NDOF  ,SKEW(1,ISK),KDD    ,KMM ,
      3                  KSS    ,IRAD  )
-C--------for the moment, A(J,NS) will be not transfert
+C--------for the moment, A(J,NS) will be not transferred
          DO J = 1 , 3
           A(J,M) = A(J,M) + KMM(J)
           A(J,NS) = A(J,NS) + KSS(J)

@@ -672,7 +672,7 @@ C
             FTCONTP(3,IX4(K)) = FTCONTP(3,IX4(K)) + FT(3)*H(4,K)*W
          ENDIF
 C----------
-        ELSE  ! desactivated secnd node
+        ELSE  ! deactivated secnd node
           NSVG(K)= -I
           L = IRTL(II)
 C

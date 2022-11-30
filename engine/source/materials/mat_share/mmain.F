@@ -1388,7 +1388,7 @@ C-----------------------------------
       ENDIF
 
 C---------------------------------------------------------------------
-C --- Needed for finite element transfert.
+C --- Needed for finite element transfer.
 C
       IF (JTHE < 0) THEN
         HEAT_MECA_L = ZERO

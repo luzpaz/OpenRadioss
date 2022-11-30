@@ -570,7 +570,7 @@ c
            ENDIF
 
 C------------------------------------------------
-         ELSE  ! desactivated secnd node
+         ELSE  ! deactivated secnd node
            NSVG(K)= -I
            L = IRTL(II)
 C

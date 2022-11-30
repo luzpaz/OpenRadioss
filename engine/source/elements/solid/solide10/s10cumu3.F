@@ -1194,7 +1194,7 @@ C             cf Assembling K = 1/2 * M/4 * Omega**2
         ENDIF
       ENDIF
 C
-C  heat transfert
+C  heat transfer
 C
       IF(JTHE < 0 ) THEN
         DO N= 1,4

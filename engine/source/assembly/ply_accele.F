@@ -113,7 +113,7 @@ C
                   F1 = F1 + PLY(J)%A(1,N)
                   F2 = F2 + PLY(J)%A(2,N)
                   F3 = F3 + PLY(J)%A(3,N)
-C for fail of ply ! is desactivated for checking                 
+C for fail of ply ! is deactivated for checking                 
 !to be checked                   IF(PLY(J)%A(4,N) == ZERO)THEN
 !to be checked                   PLY(J)%A(4,N) = EP30
 !to be checked                   PLY(J)%ITAG(N) = 1
@@ -173,7 +173,7 @@ C
                   F1 = F1 + PLY(J)%A(1,N)
                   F2 = F2 + PLY(J)%A(2,N)
                   F3 = F3 + PLY(J)%A(3,N)
-C is desactivated for checking                 
+C is deactivated for checking                 
 !to be checked                  IF(PLY(J)%A(4,N) == ZERO)THEN
 !to be checked                     PLY(J)%A(4,N) = EP30
 !to be checked                     PLY(J)%ITAG(N) = 1

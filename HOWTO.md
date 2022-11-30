@@ -287,13 +287,13 @@ Execution Control
                     3. -mpi-include=[directory]            : set include directory where to find mpif.h and mpi.h
                        -mpi-libdir=[directory]             : set library directory where to find mpi libraries
  
-         Other control
+         Other controls
          -prec=[dp|sp]                        : set precision - dp (default) |sp 
          -static-link                         : Fortran, C & C++ runtime are linked in binary
          -debug=[0|1]                         : debug version 0 no debug flags (default), 1 usual debug flag )
          -addflag="list of additional flags" : add compiler flags to usual set
  
-         Build control 
+         Build controls 
          -nt=[threads]      : number of threads for build 
          -verbose           : Verbose build
          -clean             : clean build directory
@@ -326,7 +326,7 @@ Other controls
 - `-debug=1`: activates debug build (-O0 + usual debug flags).
 - `-addflag="list of additional flags"`: add compiler flags to usual set for all files 
 
-Execution Control
+Execution Controls
 
 - `-nt=N` use N threads to fasten build
 - `-verbose`: compilation process is in Verbose mode

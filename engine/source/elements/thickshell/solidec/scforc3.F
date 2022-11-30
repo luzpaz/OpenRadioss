@@ -716,7 +716,7 @@ C----------------------------
      .        LBUF%VOL,GBUF%VOL,L_PLA,L_EPSD,NEL)
         ENDIF
 C-------------------------
-C Finite element heat transfert  
+C Finite element heat transfer  
 C--------------------------
         IF (JTHE < 0) THEN
           CALL SCTHERM(PM     ,MXT    ,VOLN, 

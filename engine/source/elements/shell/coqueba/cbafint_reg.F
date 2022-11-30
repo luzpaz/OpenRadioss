@@ -308,7 +308,7 @@ c
           ENDDO
         ENDDO
 c
-        ! Transfert at the integration point
+        ! Transfer at the integration point
         DO K = 1, NDDL
           !Computation of shape functions value
           IF ((NDDL==2).AND.(K==2)) THEN

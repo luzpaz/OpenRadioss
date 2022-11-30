@@ -345,13 +345,13 @@ C ---------> counting of parts	-------------------------------------------------
         ENDDO
 C ---------> DUmmy nodes	---------------------------------------------------C
 	NNODN = NNODN+1
-C ---------> couting of shells	---------------------------------------------------C
+C ---------> counting of shells	---------------------------------------------------C
         DO J=1,NUMELC
           IF (TAG_ELC(J+NPART)/=0) THEN
 	        NELCN = NELCN+1
           ENDIF
         ENDDO
-C ---------> counting of sh3n	---------------------------------------------------C
+C ---------> counting of sh3n	-----------------------------------------------------C
         DO J=1,NUMELTG
           IF (TAG_ELG(J+NPART)/=0) THEN
 	        NELTGN = NELTGN+1

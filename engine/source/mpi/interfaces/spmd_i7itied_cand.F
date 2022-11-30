@@ -247,7 +247,7 @@ C-----------------------------------------------
         !       -----------------------------
         ELSEIF(FLAG==2) THEN
         !       -----------------------------
-        !       receveid part
+        !       received part
 
                 L=0
                 IDEB(1:NINTER) = 0
@@ -311,7 +311,7 @@ C-----------------------------------------------
                 IF (ALLOCATED(BBUFS)) DEALLOCATE(BBUFS)
                 IF (ALLOCATED(BBUFR)) DEALLOCATE(BBUFR)
 
-        !       end of receveid part
+        !       end of received part
         !       -----------------------------
         ENDIF
 

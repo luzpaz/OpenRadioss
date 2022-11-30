@@ -143,8 +143,8 @@ Chd|====================================================================
                 !   -----------------------------
                 !   VOXEL of secondary nodes
                 INTEGER, DIMENSION(:), ALLOCATABLE :: IIX,IIY,IIZ  ! index in the x/y/z direction
-                INTEGER, DIMENSION(:), ALLOCATABLE :: LAST_NOD     ! adress of the last node in the VOXEL
-                INTEGER, DIMENSION(:), ALLOCATABLE :: NEXT_NOD     ! adress of the next node in the VOXEL
+                INTEGER, DIMENSION(:), ALLOCATABLE :: LAST_NOD     ! address of the last node in the VOXEL
+                INTEGER, DIMENSION(:), ALLOCATABLE :: NEXT_NOD     ! address of the next node in the VOXEL
                 INTEGER, DIMENSION(:,:,:), ALLOCATABLE :: VOXEL    ! voxel of secondary nodes
                 !   -----------------------------
                 !   Communication of secondary nodes :

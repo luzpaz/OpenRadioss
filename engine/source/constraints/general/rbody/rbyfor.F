@@ -85,7 +85,7 @@ C-----------------------------------------------
       INTEGER  J,K,N,KK,N2,ILAGM,
      .         ISU,ADRSRF,IM, L, LSEND, LRECV, NRBDIM,IPARSENS,ISECT
 C-------------------------------------
-C INIT RBY6 to ZERO for desactivated Rigid Bodies (non multi-thread)
+C INIT RBY6 to ZERO for deactivated Rigid Bodies (non multi-thread)
 C-------------------------------------
 !$OMP SINGLE
       RBID = ZERO

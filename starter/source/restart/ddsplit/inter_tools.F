@@ -6293,7 +6293,7 @@ C ----------------------------------------
       ENDDO
 
 C-----------------------------------------------
-C Pre construction ADRESSES
+C Pre construction ADDRESS
 C    
       DO I=1,NRTM
         IF(INTERCEP%P(I)==PROC+1)THEN

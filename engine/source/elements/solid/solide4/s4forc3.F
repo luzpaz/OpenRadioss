@@ -447,7 +447,7 @@ C--------------------------
      .   ZD1, ZD2, ZD3, ZD4,NEL)
       END IF !(ISMSTR <= 3) THEN
 C-----------------------------
-C     heat transfert 
+C     heat transfer
 C
       IF(JTHE < 0 ) THEN
          DO I = LFT, LLT
@@ -621,7 +621,7 @@ C----------------------------
      .   F11,F21,F31,F12,F22,F32,F13,F23,F33,F14,F24,F34,
      .   VOLN,QVIS,NEL)
 C --------------------------
-C  --- heat transfert 
+C  --- heat transfer
 C --------------------------
       IF(JTHE < 0 ) THEN     
         CALL S4THERM ( PM     ,MXT    , VOLN,

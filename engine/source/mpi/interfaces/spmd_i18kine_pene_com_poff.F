@@ -207,7 +207,7 @@ C Send
          ENDIF
        ENDIF
       ENDDO
-C Recieve
+C Receive
       L=0
       IDEB = 0
       DO P=1, NSPMD

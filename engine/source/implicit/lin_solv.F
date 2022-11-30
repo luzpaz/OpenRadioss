@@ -732,7 +732,7 @@ C-----------------------------------------------
 C-----------------------------------------------
 C   D u m m y   A r g u m e n t s
 C-----------------------------------------------
-C----------resol [K]{X}={F}------wothout precoditioner----
+C----------resol [K]{X}={F}------without preconditioner----
       INTEGER  NDDL  ,NNZ ,IADK(*),JDIK(*),ITASK,IPRINT,ISTOP,
      .         NDDLI ,ITOK(*) ,IADI(*),JDII(*),NDDLI_G,
      .         ISOLV ,IPREC ,L_LIM,ITOL,W_DDL(*),IBFV(*),INTP_C
@@ -1474,7 +1474,7 @@ C-----------------------------------------------
 C-----------------------------------------------
 C   D u m m y   A r g u m e n t s
 C-----------------------------------------------
-C----------resol [K]{X}={F}------wothout precoditioner----
+C----------resol [K]{X}={F}------without preconditioner----
       INTEGER  NDDL  ,NNZ ,IADK(*),JDIK(*),ITASK,IPRINT,ISTOP,
      .         NDDLI ,ITOK(*) ,IADI(*),JDII(*),
      .         ISOLV ,IPREC ,L_LIM,ITOL,W_DDL(*),IBFV(*)

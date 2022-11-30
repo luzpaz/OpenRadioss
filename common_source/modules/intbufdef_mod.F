@@ -605,7 +605,7 @@ C=======================================================================
         integer ::   S_ADSKYN     !  4*NRTM+1          :ADSKYN : skyline pour assemblage parith/on des normales : 25
         integer ::   S_IADNOR     !  4*NRTM            :IADNOR : skyline pour assemblage parith/on des normales : 25
         integer ::   S_ISLIDE     !  4*NSN             :ISLIDE : sommets (0  4) sur lesquels le noeud secnd glisse : 25
-        integer ::   S_KNOR2MSR   !  NADMSR+1          :KNOR2MSR: adress of connected segments to normals in NOR2MSR : 25
+        integer ::   S_KNOR2MSR   !  NADMSR+1          :KNOR2MSR: address of connected segments to normals in NOR2MSR : 25
         integer ::   S_NOR2MSR    !  ...               :NOR2MSR : connected segments to normals in NOR2MSR : 25
         integer ::   S_CAND_OPT_N !  MULTIMP*NSN       :CAND_OPT_N : Candidats apres optimisation <=> nd second. (i25optcd.F)
         integer ::   S_CAND_OPT_E !  MULTIMP*NSN       :CAND_OPT_E : Candidats apres optimisation <=> segment main (i25optcd.F)
@@ -648,7 +648,7 @@ C---- INTER FRICTION PARTS
 C       Orthotropic friction 
         integer ::   S_IREP_FRICM !  NRTM      :IREP_FRIC : Orthotropic system formulation flag for reference vector for friction (same as IORTH/IREP for prop) 
 C---- Irem Gap option for inter type25
-        integer ::   S_KREMNOR!  NSN+1    :KREMNOR : skyline tab for main segment adress in REMNOR tab
+        integer ::   S_KREMNOR!  NSN+1    :KREMNOR : skyline tab for main segment address in REMNOR tab
         integer ::   S_REMNOR!   REMNODE  :REMNOR  : tab for main segment forbidden for each secnd node
         integer ::   S_KREMNODE_EDG   !  NEDGE+1    :KREMNODE_EDG:ADRESS LINES REMOVED FROM CONTACT IN REMNODE ARRAY :      25
         integer ::   S_REMNODE_EDG    !  NREMNODE_EDG   :REMNODE_EDG: LINES REMOVED FROM CONTACT     :      25
@@ -656,7 +656,7 @@ C---- Irem Gap option for inter type25
         integer ::   S_REMNODE_E2S    !  NREMNODE_E2S   :REMNODE_EDG: LINES REMOVED FROM CONTACT     :      25
 C----Nitsche Method
         integer ::   S_IELNRTS!  NRTS      :IELNRTS : number of secnd element 
-        integer ::   S_ADRECTS!  4*NRTS    :ADRECTS : Adress of each secnd node of the segment in IXS/IXS10/IXS20/IXS16 
+        integer ::   S_ADRECTS!  4*NRTS    :ADRECTS : Address of each secnd node of the segment in IXS/IXS10/IXS20/IXS16 
         integer ::   S_FACNRTS!  NRTS      :FACNRTS : Corresponding facet in element IELNRTS 
         integer ::   S_E2S_ACTNOR!
 C=======================================================================

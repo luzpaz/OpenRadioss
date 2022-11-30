@@ -494,7 +494,7 @@ c
           IFUNC(I)=IPM(10+I,IMAT)
         ENDDO  
 c
-!       check if EPSP arraies are used or not
+!       check if EPSP arrays are used or not
 !       EPSP is not used for law : 2/25/32/42/58/63/63/64/69/71/72/76/78/80/82/85/96 --> FLAG_EPSP=.FALSE.
 !       EPSP is used for the other laws   
 !       EPSP is also used for the rupture : 4/5/6/14/24
@@ -502,7 +502,7 @@ c
         IF(ILAW==1.OR.ILAW==2.OR.ILAW==25.OR.ILAW==32.OR.ILAW==42.OR.ILAW==58.OR.ILAW==62.OR.
      .       ILAW==63.OR.ILAW==64.OR.ILAW==69.OR.ILAW==71.OR.ILAW==72.OR.
      .       ILAW==76.OR.ILAW==78.OR.ILAW==80.OR.ILAW==82.OR.ILAW==85.OR.ILAW == 88 .OR. ILAW==96) FLAG_EPSP=.FALSE.
-!       check if EPS arraies are used or not
+!       check if EPS arrays are used or not
 !       EPS is not used for law : 2/25/63/64/65/66/72/76/78/93 --> FLAG_EPS=.FALSE.     
 !       EPS is used for the other laws 
 !       EPS is also used for the rupture : 4/5/6/7/10/24   

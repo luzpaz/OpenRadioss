@@ -1049,7 +1049,7 @@ C-----------------------------
      .                   GBUF%OFF,OFF,NEL)
 !         ENDIF
 C
-C    for heat transfert
+C    for heat transfer
 C
 !      IF(JTHE < 0 ) THEN
 !            CALL S8ZTEMPEL(
@@ -1151,7 +1151,7 @@ c--------------------------
         END IF
        ENDDO
 C-------------------------
-c    finite element heat transfert  
+c    finite element heat transfer
 C--------------------------
 C
 !         IF(JTHE < 0) THEN

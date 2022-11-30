@@ -1197,7 +1197,7 @@ C Virtual internal forces of regularized non local dof
       ENDIF 
 C
       IF (JTHE < 0) THEN
-C Finite element heat transfert forces
+C Finite element heat transfer forces
         CALL STHERM( PM     ,MXT    ,VOLN,
      .               NC1,  NC2, NC3,NC4,
      .               NC5,  NC6, NC7,NC8, 

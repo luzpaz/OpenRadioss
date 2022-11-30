@@ -3270,7 +3270,7 @@ C===============================================================================
 
 !$OMP PARALLEL
 C-------------------------------------------------------------------
-C   BC -- CONVECTION  for heat_transfert by FEM
+C   BC -- CONVECTION  for heat_transfer by FEM
 C----------------------------------------------
           IF(NUMCONV > 0 .AND. ITHERM_FE > 0) THEN
             IF (IMON>0) CALL STARTIME(4,1)
@@ -3282,7 +3282,7 @@ C----------------------------------------------
             IF (IMON>0) CALL STOPTIME(4,1)
           ENDIF
 C-------------------------------------------------------------------
-C   BC -- RADIATION to environment for heat_transfert by FEM
+C   BC -- RADIATION to environment for heat_transfer by FEM
 C-----------------------------------------------------------
           IF(NUMRADIA > 0 .AND. ITHERM_FE > 0) THEN
             IF (IMON>0) CALL STARTIME(4,1)
@@ -3301,7 +3301,7 @@ C                                     NON PARALLEL SECTION (SMP)
 C========================================================================================
 
 C-------------------------------------------------------------------
-C   BC -- THERMAL FLUX  for heat_transfert by FEM
+C   BC -- THERMAL FLUX  for heat_transfer by FEM
 C-------------------------------------------------
         IF(NFXFLUX > 0 .AND. ITHERM_FE > 0) THEN
           IF (IMON>0) CALL STARTIME(4,1)

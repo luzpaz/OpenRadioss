@@ -96,7 +96,7 @@ C---
             ELCRK = IEL_CRK(I+NFT)
             ELCUT = XFEM_PHANTOM(ILAY)%ELCUT(ELCRK)
             IF (ELCUT /= 0) THEN
-c---          set nodal enrichment to zero for desactivated phantom elements
+c---          set nodal enrichment to zero for deactivated phantom elements
               IF (XOFF(I) == ZERO) THEN
                 IADC1 = IADC_CRK(1,ELCRK)
                 IADC2 = IADC_CRK(2,ELCRK)

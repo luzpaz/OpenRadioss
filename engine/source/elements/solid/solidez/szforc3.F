@@ -821,7 +821,7 @@ C Virtual internal forces of regularized non local dof
      .       ITASK    ,DT2T     ,GBUF%VOL )
       ENDIF      
 C
-C Finite element heat transfert
+C Finite element heat transfer
       IF(JTHE < 0) THEN
         CALL STHERM( PM     ,MXT    ,VOLN, 
      .               NC1,  NC2, NC3,NC4,

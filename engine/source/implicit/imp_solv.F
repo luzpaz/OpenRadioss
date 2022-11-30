@@ -8273,7 +8273,7 @@ C--------exclude the node w/all translational fixed
           LSM(1)=X(1,I)-X0
           LSM(2)=X(2,I)-Y0
           LSM(3)=X(3,I)-Z0             
-C----transfert LSM to local     
+C----transfer LSM to local     
 c         CALL TRANSVG2L(RLSKEW,LSM,LSML)
           CALL VELROT(DROTL,LSML,DRS)
 C------otherwise DL(1:3)= DRS+ DTRAL if fixing put DL(j)=0       
@@ -8289,7 +8289,7 @@ C----------suppose the same ISK w/ reference one
            CALL TRANSVL2G(RLSKEW,DROTL1,DROT1) 
           END IF !(NKC>0) THEN
           CALL TRANSVL2G(RLSKEW,DRS,DRS1) 
-C----transfert DL DROT,to global     
+C----transfer DL DROT,to global     
           DO K=1,3
            D_IMP(K,I)=D_IMP(K,I)- DRS1(K)
           ENDDO

@@ -349,7 +349,7 @@ C        SMALL STRAIN
 C-----------------------------
          CALL SMALLA3(GBUF%SMSTR,GBUF%OFF,OFF,WXX,WYY,WZZ,NEL)
 C
-C         for heat transfert
+C         for heat transfer
 C
           IF(JTHE < 0 ) THEN
              CALL S20TEMPCG(LFT,LLT,NPE, NC,NI(1,IP),TEMP,TEMPEL)
@@ -399,7 +399,7 @@ c
      5    LBUF%VOL,GBUF%VOL,GBUF%G_PLA,NEL,CONDE,DELTAX,CONDEG)
 C
 C-------------------------
-c    finite element heat transfert  
+c    finite element heat transfer 
 C--------------------------
           IF(JTHE < 0) THEN
             CALL S20THERM(NPE,PM     ,MXT    ,NC,VOLN, 

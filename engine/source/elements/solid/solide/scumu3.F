@@ -982,7 +982,7 @@ C
         ENDDO
        ENDIF
 C
-C   heat transfert
+C   heat transfer
 C         
       ELSE
        IF(IVECTOR==1) THEN

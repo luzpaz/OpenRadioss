@@ -2125,7 +2125,7 @@ C-----------------------------------------------
       NSMSPCG=MIN(NSMSPCG,3*LSMSPCG)
 C
 C------------
-C CHeck of the symmetrization operator JSM_SMS
+C Check of the symmetrization operator JSM_SMS
 C------------
       ERROR = 0
       DO I=1,NUMNOD

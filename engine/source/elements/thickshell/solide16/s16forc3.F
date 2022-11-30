@@ -533,7 +533,7 @@ C
       !-----------------------------
          CALL SMALLA3(GBUF%SMSTR,GBUF%OFF,OFF,WXX,WYY,WZZ,NEL)
 C
-C    for heat transfert
+C    for heat transfer
 C
           IF(JTHE < 0 ) THEN
              CALL S20TEMPCG(LFT,LLT,NPE, NC,NI(1,IP), TEMP,TEMPEL)
@@ -590,7 +590,7 @@ C
      4    GBUF%SIG,GBUF%EINT,GBUF%RHO,GBUF%QVIS,GBUF%PLA,WI,VOLG,
      5    LBUF%VOL,GBUF%VOL,L_PLA,NEL,CONDE,DELTAX,CONDEG)
       !-------------------------
-      !    finite element heat transfert  
+      !    finite element heat transfer  
       !--------------------------
 
          IF (JTHE < 0) THEN
